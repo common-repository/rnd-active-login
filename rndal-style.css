@@ -1,0 +1,29 @@
+.heading div p{
+	font-weight: bold;
+}
+.log-table-container {
+    
+    float: left;
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
+}
+
+.log_table {
+    float: left;
+    width: 100%;
+    display: table-row;
+    border-bottom: 1px solid #ccc;
+}
+
+.log_table div {
+    display: table-cell;
+    width: 33%;
+    float: left;
+    word-break: break-word;
+}
+.status-box{height:10px; width:10px; float: left; border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; -webkit-border-radius: 20px; -khtml-border-radius: 20px; } 
+.logged-in{background-color: #0C7F0A; }
+.logged-out{background-color: #E00F16; } 
+#history-spiner-1, #history-spiner{float: left; font-weight: bold; margin-top: 14px; padding: 0 24px; } 
+#history-spiner-1{margin-top: 0px !important; } 
